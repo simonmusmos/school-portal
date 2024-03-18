@@ -1,0 +1,35 @@
+.br-15 {
+    border-radius: 15px !important;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 1rem 1.4rem !important;
+  vertical-align: middle;
+  text-align: center;
+}
+tbody td {
+  font-weight: 500;
+  color: #999999;
+}
+
+.app-sidebar-title p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text-status-active {
+    color: rgb(48, 196, 48);
+}
+
+.text-status-inactive {
+    color: rgb(238, 55, 55);
+}
+
+.modal-body {
+  max-height: 50vh;
+  overflow-y: auto;
+}
